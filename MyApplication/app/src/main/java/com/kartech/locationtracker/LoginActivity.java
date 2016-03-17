@@ -34,6 +34,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         inputEmail = (EditText) findViewById(R.id.email);
         inputPassword = (EditText) findViewById(R.id.password);
         btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnLogin.setOnClickListener(this);
         btnLinkToRegister = (Button) findViewById(R.id.btnLinkToRegisterScreen);
         btnLinkToRegister.setOnClickListener(this);
 
@@ -73,6 +74,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 finish();
                 break;
             }
+
+            case R.id.btnLogin:
+            {
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(i);
+                finish();
+                break;
+            }
+
+
         }
 
     }
