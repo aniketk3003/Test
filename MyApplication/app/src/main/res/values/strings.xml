@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LocationTracker</string>
+    <string name="app_name">Smart Carpooling</string>
     <string name="action_settings">Settings</string>
 
     <string name="hint_email">Email</string>
@@ -18,4 +18,21 @@
     <string name="name">Fullname</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="country_name">Nigeria</string>
+    <string name="title_activity_direction">DirectionActivity</string>
+    <string name="title_activity_places">PlacesActivity</string>
+
+    <string name="google_maps_api_key">AIzaSyCi6OzHL5en14wf2ID0nkWk1i3_09zP5VE</string>
+    <string-array name="places">
+        <item >ATM</item>
+        <item >Bank</item>
+        <item >Cafe</item>
+        <item >Fire-Station</item>
+        <item >Hospital</item>
+        <item >Pharmacy</item>
+        <item >Police</item>
+        <item >Restaurant</item>
+        <item >Shopping Mall</item>
+    </string-array>
 </resources>
