@@ -47,7 +47,7 @@ public class HomeActivity extends AppCompatActivity {
     private List<GridObject> getAllItemList(){
 
         List<GridObject> allItems = new ArrayList<GridObject>();
-        allItems.add(new GridObject("Location", R.drawable.locations));
+        allItems.add(new GridObject("Service", R.drawable.services));
         allItems.add(new GridObject("Current Location", R.drawable.current_location));
         allItems.add(new GridObject("Direction", R.drawable.direction));
         allItems.add(new GridObject("Location History", R.drawable.location_history));

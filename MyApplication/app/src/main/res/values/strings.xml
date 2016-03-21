@@ -25,14 +25,15 @@
 
     <string name="google_maps_api_key">AIzaSyCi6OzHL5en14wf2ID0nkWk1i3_09zP5VE</string>
     <string-array name="places">
-        <item >ATM</item>
-        <item >Bank</item>
-        <item >Cafe</item>
-        <item >Fire-Station</item>
-        <item >Hospital</item>
-        <item >Pharmacy</item>
-        <item >Police</item>
-        <item >Restaurant</item>
-        <item >Shopping Mall</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Cafe</item>
+        <item>Fire-Station</item>
+        <item>Hospital</item>
+        <item>Pharmacy</item>
+        <item>Police</item>
+        <item>Restaurant</item>
+        <item>Shopping Mall</item>
     </string-array>
+    <string name="title_activity_search_location">SearchLocationActivity</string>
 </resources>
