@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.kartech.locationtracker.AutoCompleteActivity;
 import com.kartech.locationtracker.DirectionActivity;
 import com.kartech.locationtracker.MainActivity;
 import com.kartech.locationtracker.PlacesActivity;
@@ -66,9 +67,9 @@ public class RecyclerViewHolders extends RecyclerView.ViewHolder implements View
 
             case 4:
             {
-                Intent intent = new Intent(view.getContext(), SearchLocationActivity.class);
+                Intent intent = new Intent(view.getContext(), AutoCompleteActivity.class);
                 view.getContext().startActivity(intent);
-                Toast.makeText(view.getContext(), "Search Location Under Constructions" , Toast.LENGTH_SHORT).show();
+//                Toast.makeText(view.getContext(), "Search Location Under Constructions" , Toast.LENGTH_SHORT).show();
                 break;
             }
 

@@ -49,9 +49,12 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
+        <!--<meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCi6OzHL5en14wf2ID0nkWk1i3_09zP5VE" />
+            android:value="AIzaSyCi6OzHL5en14wf2ID0nkWk1i3_09zP5VE" />-->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCNld98m-76OZBkKHoAczP6mlQynnlf6LQ"/>
 
         <activity
             android:name=".HomeActivity"
@@ -61,13 +64,16 @@
             android:name=".DirectionActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".PlacesActivity"
             android:label="@string/app_name" />
         <activity
             android:name=".SearchLocationActivity"
             android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AutoCompleteActivity"
+            android:label="@string/title_activity_auto_complete"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

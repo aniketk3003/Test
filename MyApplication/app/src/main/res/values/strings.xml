@@ -24,6 +24,7 @@
     <string name="title_activity_places">PlacesActivity</string>
 
     <string name="google_maps_api_key">AIzaSyCi6OzHL5en14wf2ID0nkWk1i3_09zP5VE</string>
+    <string name="browser_api_key">AIzaSyCNld98m-76OZBkKHoAczP6mlQynnlf6LQ</string>
     <string-array name="places">
         <item>ATM</item>
         <item>Bank</item>
@@ -36,4 +37,21 @@
         <item>Shopping Mall</item>
     </string-array>
     <string name="title_activity_search_location">SearchLocationActivity</string>
+    <string name="title_activity_auto_complete">AutoCompleteActivity</string>
+
+    <string name="open_activity">Search Places</string>
+    <string name="selected_place">Last Selected Place:</string>
+    <string name="place_details">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        <i>Place Id: %2$s</i>
+        <br/>
+        Address: %3$s
+        <br/>
+        Phone: %4$s
+        <br/>
+        Website: %5$s
+    ]]>
+    </string>
 </resources>
